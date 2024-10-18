@@ -1,0 +1,141 @@
+/* Reset Style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #e0e0e0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+/* Header Styling */
+header {
+  text-align: center;
+  margin-top: 10vh;
+}
+
+header h1 {
+  font-size: 3rem;
+  color: #fff;
+  text-shadow: 0 0 20px #4caf50, 0 0 40px #4caf50;
+}
+
+header h2 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+/* Stats Section */
+.stats {
+  margin: 5vh 0;
+  text-align: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Skills Section */
+.skills {
+  text-align: center;
+  margin-top: 5vh;
+}
+
+.skills h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.icons img {
+  height: 50px;
+  margin: 0 10px;
+  transition: transform 0.3s, filter 0.3s;
+}
+
+.icons img:hover {
+  transform: scale(1.2);
+  filter: brightness(1.5);
+}
+
+.social-badges {
+  text-align: center;
+}
+
+/* social section */
+.Social-Information {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.Social-Information h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+/* Center badges with spacing */
+.social-badges {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* Smooth hover animation */
+.social-badges a {
+  transition: transform 0.3s ease;
+}
+
+.social-badges a:hover {
+  transform: scale(1.1);
+}
+
+
+/* Optional: Add subtle hover animations for icons */
+.social-links a i {
+  transition: transform 0.3s;
+}
+
+.social-links a:hover i {
+  transform: scale(1.2);
+}
+
+
+/* Snake Animation */
+.snake-animation {
+  text-align: center;
+  margin-top: 5vh;
+}
+
+/* Footer */
+footer {
+  position: relative;
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Canvas Styling */
+#backgroundCanvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
