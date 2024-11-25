@@ -30,4 +30,4 @@ function drawCircuit() {
   }
 }
 
-setInterval(drawCircuit, 100);
+setInterval(drawCircuit, 10);
